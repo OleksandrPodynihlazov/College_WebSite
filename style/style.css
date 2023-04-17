@@ -1,26 +1,4 @@
-.dropdown_nav {
-  position: relative;
-  display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown:hover .dropdown-content {display: block;}
-html{
-  font-family: "Tilt Neon";
-  width: 100%;
-}
+
 body{
   
   margin: 0;
@@ -80,6 +58,29 @@ nav section{
   top: 0;
   display: flex;
   float: right;
+}
+.dropdown_nav {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {display: block;}
+html{
+  font-family: "Tilt Neon";
+  width: 100%;
 }
 #search-input{
   height: 25px;
@@ -225,7 +226,7 @@ figure h4{
   position: relative;
 }
 .section_3 h2{
-  margin-top: 0;
+  margin-top: 5%;
   margin-left: 10%;
   font-size: 36px;
 }
@@ -299,11 +300,13 @@ figure h4{
 .container {
   position: relative;
   margin: 5%;
+  margin-top: 0;
   margin-bottom: -1.368%;
 }
 
 .mySlides {
   display: none;
+  margin-top: 0;
 }
 .mySlides img{
   height: 401px;
