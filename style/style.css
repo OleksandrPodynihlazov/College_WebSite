@@ -1,3 +1,7 @@
+.dropdown_nav {
+  position: relative;
+  display: inline-block;
+}
 .dropdown-content {
   display: none;
   position: absolute;
@@ -12,6 +16,7 @@
   text-decoration: none;
   display: block;
 }
+.dropdown:hover .dropdown-content {display: block;}
 html{
   font-family: "Tilt Neon";
   width: 100%;
