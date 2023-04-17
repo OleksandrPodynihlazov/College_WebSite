@@ -1,0 +1,162 @@
+
+html{
+  font-family: "Tilt Neon";
+  width: 100%;
+}
+body{
+  margin: 0;
+}
+header img{
+  margin-left: 20px;
+  height: 50px;
+}
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 50px;
+  width: 100%;
+}
+nav{
+  width: 1200px;
+  height: 50px;
+  margin-top:0px;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 0;
+}
+nav ul {
+  width: 800px;
+  margin-bottom: 100px;
+  display: flex;
+  list-style: none;
+  
+}
+nav li {
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  line-height: 35px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+
+}
+nav  a:hover{
+  color: #4962cf;
+}
+nav section{
+  position: absolute;
+  margin: 0 auto;
+  right: 1%;
+  top: 0;
+  display: flex;
+  float: right;
+}
+#search-input{
+  height: 25px;
+  width: 200px;
+  margin-top: 15px;
+  position: relative;
+}
+ .search_button {
+  width: 22px;
+  height:22px;
+  position: absolute;
+  bottom: 0;
+  top: 40%;
+  background-image: url("../img/search-512.jpg");
+  background-size: cover;
+  border: none;
+}
+
+main{
+  position: relative;
+  height: 90%;
+  width: auto;
+  margin: auto;
+  color: #000000;
+}
+footer{
+  clear: both;
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
+  width: auto;
+  margin-top: 10%;
+}
+@font-face {
+  font-family: "Tilt Neon";
+  src: url(../fonts/Tilt_Neon/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf);
+  font-style: normal;
+  font-weight:850;
+}
+
+.section_1 {
+  height: 30em; 
+  width: 100%; 
+  background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+  animation: gradient 10s infinite linear; 
+  background-size: 400%; 
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 80% 0%;
+  }
+  50% {
+      background-position: 20% 100%;
+  }
+  100% {
+      background-position: 80% 0%;
+  }
+}
+.section_1 .title{
+  position: relative;
+  color: aliceblue;
+  font-size: 330%;
+  text-align: center;
+  margin: 5%;
+  margin-top: 0;
+  padding-top: 5%;
+}
+.section_1 .description{
+  position: relative;
+  font-size: x-large;
+  text-align: center;
+  margin: 10%;
+  margin-top: 0;
+}
+#request_field{
+  width: 20em;
+  height: 3em;
+  position: absolute;
+  text-align: center;
+  border: dashed black 2px ;
+  margin-left: 40%;
+  margin-top: -8%;
+}
+iframe{
+  margin: 5%;
+  margin-left: 30%;
+}
+.video h1{
+  background-color: #F0F0F0;
+  text-align: center;
+  padding: 20px;
+  margin-top: 0;
+}
+.video p{
+  margin: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}

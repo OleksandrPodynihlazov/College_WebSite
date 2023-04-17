@@ -1,0 +1,150 @@
+
+html{
+  font-family: "Tilt Neon";
+  width: 100%;
+}
+body{
+  margin: 0;
+}
+header img{
+  margin-left: 20px;
+  height: 50px;
+}
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 50px;
+  width: 100%;
+}
+nav{
+  width: 1200px;
+  height: 50px;
+  margin-top:0px;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 0;
+}
+nav ul {
+  width: 800px;
+  margin-bottom: 100px;
+  display: flex;
+  list-style: none;
+  
+}
+nav li {
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  line-height: 35px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+
+}
+nav  a:hover{
+  color: #4962cf;
+}
+nav section{
+  position: absolute;
+  margin: 0 auto;
+  right: 1%;
+  top: 0;
+  display: flex;
+  float: right;
+}
+#search-input{
+  height: 25px;
+  width: 200px;
+  margin-top: 15px;
+  position: relative;
+}
+ .search_button {
+  width: 22px;
+  height:22px;
+  position: absolute;
+  bottom: 0;
+  top: 40%;
+  background-image: url("../img/search-512.jpg");
+  background-size: cover;
+  border: none;
+}
+
+main{
+  position: relative;
+  height: 90%;
+  width: auto;
+  margin: auto;
+  color: #000000;
+}
+footer{
+  clear: both;
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
+  width: auto;
+  margin-top: 10%;
+}
+@font-face {
+  font-family: "Tilt Neon";
+  src: url(../fonts/Tilt_Neon/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf);
+  font-style: normal;
+  font-weight:850;
+}
+.section_1 img{
+  padding: 5%;
+  height: 50%;
+  width: 50%;
+}
+.border {
+  width:55%;
+  height: 55%  ;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;         
+  background-repeat: no-repeat;
+  background-image:   linear-gradient(to right, #BFE2FF 100%, #BFE2FF 100%),
+      linear-gradient(to bottom, #BFE2FF 100%, #BFE2FF 100%),
+      linear-gradient(to right, #BFE2FF 100%, #BFE2FF 100%),
+      linear-gradient(to bottom, #BFE2FF 100%, #BFE2FF 100%);
+  background-size:    100% 6px, 6px 100%, 100% 6px, 6px 100%;
+  background-position:    0 0, 100% 0, 100% 100%, 0 100%;
+  animation: anim-border 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
+  animation-play-state: paused;
+}
+.border:hover {
+  animation-play-state: running;
+}
+@keyframes anim-border {
+  0% {
+      background-size:    0 6px, 6px 0, 0 6px, 6px 0;
+  }
+  25% {
+      background-size:    100% 6px, 6px 0, 0 6px, 6px 0;
+  }
+  50% {
+      background-size:    100% 6px, 6px 100%, 0 6px, 6px 0;
+  }
+  75% {
+      background-size:    100% 6px, 6px 100%, 100% 6px, 6px 0;
+  }
+  100% {
+      background-size:    100% 6px, 6px 100%, 100% 6px, 6px 100%;
+  }
+}
+
+.general_text{
+  margin: 5%;
+  line-height: 2;
+  font-size: larger;
+}
